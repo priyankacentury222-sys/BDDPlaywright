@@ -1,0 +1,18 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Cucumber output
+/reports/*.html
+/reports/*.json
+/screenshots/*.png
+
+#env variables
+
+.env.qa
+.env.uat

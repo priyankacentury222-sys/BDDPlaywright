@@ -1,0 +1,27 @@
+{
+  "name": "saucedemo-framework",
+  "version": "1.0.0",
+  "description": "Playwright, TypeScript, and Cucumber BDD automation framework for SauceDemo",
+  "main": "index.js",
+  "scripts": {
+    "test:bdd": "ts-node test-runner/runner.ts",
+    "test:bdd:html": "npm run test:bdd",
+    "test:bdd:headed": "ts-node test-runner/runner.ts --headed",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "playwright-bdd": "^9.2.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "typescript": "^5.9.3"
+  }
+}

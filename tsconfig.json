@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "lib": ["ES2022", "DOM"],
+    "types": ["node"],
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "sourceMap": true
+  },
+  "include": [
+    "config/**/*.ts",
+    "features/**/*.ts",
+    "hooks/**/*.ts",
+    "pages/**/*.ts",
+    "step-definitions/**/*.ts",
+    "test-runner/**/*.ts",
+    "playwright.config.ts",
+    "tests/**/*.ts"
+  ]
+}
